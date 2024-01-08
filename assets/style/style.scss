@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-size: cover;
+    background-image: url(../images/photo_2024-01-08_10-37-21.jpg);
+}
+
+.animation {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: green;
+    position: absolute;
+    top: 75px;
+    left: 61px;
+    animation: card 15s infinite;
+}
+
+@keyframes card {
+    0% {
+        top: 75px;
+        left: 61px;
+    }
+    10% {
+        top: 75px;
+        left: 320px;
+        background-color: red;
+    }
+
+    20% {
+        top: 350px;
+        left: 320px;
+        background-color: yellow;
+    }
+    30% {
+        top: 350px;
+        left: 965px;
+        background-color: black;
+    }
+    40% {
+        top: 500px;
+        left: 960px;
+        background-color: dodgerblue;
+    }
+    50% {
+        top: 500px;
+        left: 600px;
+        background-color: darkblue;
+    }
+    60% {
+        top: 450px;
+        left: 600px;
+        background-color: darkgreen;
+    }
+    70% {
+        top: 450px;
+        left: 330px;
+        background-color: darkmagenta;
+    }
+    80% {
+        top: 330px;
+        left: 170px;
+        background-color: darkorange;
+    }
+    90% {
+        top: 330px;
+        left: 61px;
+        background-color: darkslategrey;
+    }
+    100% {
+        top: 75px;
+        left: 61px;
+        background-color: green;
+    }
+}
